@@ -1,4 +1,4 @@
-set scrolloff=8
+set scrolloff=7
 set number
 set relativenumber
 set tabstop=4 softtabstop=4
