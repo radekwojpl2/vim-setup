@@ -31,3 +31,4 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
 colorscheme dracula
+highlight LineNr ctermfg=white
