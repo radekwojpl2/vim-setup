@@ -1,4 +1,3 @@
-set scrolloff=8
 set number
 set relativenumber
 set tabstop=4 softtabstop=4
@@ -7,8 +6,6 @@ set expandtab
 set smartindent
 
 let mapleader = " "
-
-
 
 nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>pv :Vex<CR>
@@ -27,6 +24,13 @@ call plug#begin()
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'pangloss/vim-javascript'
+Plug 'mxw/vim-jsx'
+Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'mattn/emmet-vim'
+
 
 call plug#end()
 
